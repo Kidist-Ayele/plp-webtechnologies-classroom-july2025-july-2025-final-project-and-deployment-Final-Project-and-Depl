@@ -2,7 +2,7 @@
 
 A beautiful, responsive restaurant website built with HTML5, CSS3, and JavaScript. This project showcases authentic Ethiopian cuisine with a warm, inviting design that makes visitors hungry for more!
 
-## Live Demo Link -
+## 🔗 Live Demo Link -> [Habesha Kitchen](https://kidist-ayele.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ## 🌟 Features
 
