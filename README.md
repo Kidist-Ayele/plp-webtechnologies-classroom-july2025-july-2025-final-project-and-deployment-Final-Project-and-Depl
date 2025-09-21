@@ -57,8 +57,10 @@ plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Fi
 ## Preview
 
 - Home Page
+  <img width="1348" height="639" alt="image" src="https://github.com/user-attachments/assets/fa57cb39-797c-4d73-9c60-68fb52f77d37" />
 
 - Menu page
+  <img width="1366" height="1519" alt="screencapture-127-0-0-1-5501-plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl-menu-html-2025-09-21-16_50_37(1)" src="https://github.com/user-attachments/assets/4dcee50f-dd99-4e80-a218-305e615513f1" />
 
 ## 🎯 Customization Guide
 
