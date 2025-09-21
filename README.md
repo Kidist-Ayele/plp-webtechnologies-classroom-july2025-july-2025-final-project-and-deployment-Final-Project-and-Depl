@@ -1,90 +1,70 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🍽️ Habesha Kitchen Restaurant Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A beautiful, responsive restaurant website built with HTML5, CSS3, and JavaScript. This project showcases authentic Ethiopian cuisine with a warm, inviting design that makes visitors hungry for more!
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Live Demo Link -
 
----
+## 🌟 Features
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+- **Responsive Design**: Perfect on desktop, tablet, and mobile
+- **Interactive Menu**: Filter menu items by category
+- **Online Reservations**: Complete reservation form with validation
+- **Beautiful Food Images**: Showcase delicious Italian dishes
+- **Restaurant Information**: Hours, location, contact details
+- **Customer Testimonials**: Build trust with customer reviews
+- **Team Showcase**: Meet the chefs and staff
+- **Restaurant Gallery**: Beautiful interior and atmosphere photos
 
-Before you write any code, take time to plan:
+## 📁 Project Structure
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+```
+plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+├── index.html          # Home page with hero and featured dishes
+├── menu.html           # Interactive menu with filtering
+├── about.html          # Restaurant story, team, and gallery
+├── contact.html        # Contact info and reservation form
+├── css/
+│   └── style.css      # Restaurant-themed styling
+├── js/
+│   └── main.js        # Interactive functionality
+├── images/            # Food and restaurant photos
+│
+└── README.md          # This file
+```
 
-**Goal:** Show intentional structure and user journey across the site.
+## 🚀 Getting Started
 
----
+1. **Download/Clone** this project to your computer
+2. **Add Images**: Place your food and restaurant photos in the `images/` folder
+3. **Customize Content**: Edit the HTML files to add your restaurant's information
+4. **Open in Browser**: Open `index.html` to see your restaurant website
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🛠️ Technologies Used
 
-Using your plan, begin building:
+- **HTML5**: Semantic structure and accessibility
+- **CSS3**: Responsive design, animations, and modern styling
+- **JavaScript**: Interactive features and form validation
+- **Google Fonts**: Beautiful typography
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+## 📱 Key Features Explained
 
-Each page should:
+- Interactive Menu Filtering
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+- Reservation Form
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- Responsive Design
 
----
+## Preview
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+- Home Page
 
-Before deployment, refactor your project to follow production-friendly practices:
+- Menu page
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+## 🎯 Customization Guide
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+### Changing Restaurant Information
 
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+1. Edit contact details in all HTML files
+2. Update opening hours in `index.html` and `contact.html`
+3. Modify menu items and prices in `menu.html`
+4. Replace team member information in `about.html`

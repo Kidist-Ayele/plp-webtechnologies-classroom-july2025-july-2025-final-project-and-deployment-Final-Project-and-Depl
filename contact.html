@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Habesha Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🍽️ Habesha Kitchen</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-subtitle">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Info & Form -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Whether you're planning a special celebration, have questions about our traditional Ethiopian menu, or just want to say hello, we're here to help. Reach out to us using any of the methods below.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Visit Us</h3>
+                                <p>Bole Road, Addis Ababa<br>Near Edna Mall<br>Ethiopia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>Phone: +251 11 123 4567<br>Reservations: +251 11 123 4568<br>Available 11 AM - 10 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p>General: info@habeshakitchen.com<br>Reservations: reservations@habeshakitchen.com<br>Events: events@habeshakitchen.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h3>Hours</h3>
+                                <p>Mon-Thu: 11:00 AM - 10:00 PM<br>Fri-Sat: 11:00 AM - 11:00 PM<br>Sun: 12:00 PM - 9:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reservation Form -->
+                <div class="reservation-form-container">
+                    <h2>Make a Reservation</h2>
+                    <form class="reservation-form" id="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guests">Number of Guests *</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Select guests</option>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                    <option value="6">6 Guests</option>
+                                    <option value="7">7+ Guests</option>
+                                </select>
+                                <span class="error-message" id="guests-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date *</label>
+                                <input type="date" id="date" name="date" required>
+                                <span class="error-message" id="date-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Preferred Time *</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select time</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="13:30">1:30 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="19:30">7:30 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="20:30">8:30 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                                <span class="error-message" id="time-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="special-requests">Special Requests</label>
+                            <textarea id="special-requests" name="special-requests" rows="4" placeholder="Any dietary restrictions, allergies, or special occasions?"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Make Reservation</button>
+                        
+                        <div class="form-success" id="form-success" style="display: none;">
+                            <p>✅ Thank you! Your reservation request has been submitted. We'll contact you shortly to confirm.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <h3>📍 Habesha Kitchen</h3>
+                        <p>Bole Road, Addis Ababa</p>
+                        <p>Near Edna Mall, Ethiopia</p>
+                        <div class="map-directions">
+                            <h4>Directions:</h4>
+                            <p>• Located on Bole Road in Addis Ababa</p>
+                            <p>• 5 minutes walk from Edna Mall</p>
+                            <p>• Street parking available</p>
+                            <p>• Accessible by public transport</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Do you take reservations?</h3>
+                    <p>Yes! We highly recommend making reservations, especially for dinner and weekends. You can call us or use our online reservation form above.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you accommodate dietary restrictions?</h3>
+                    <p>Absolutely! We offer vegetarian, vegan, and gluten-free options. Many of our traditional dishes are naturally vegetarian. Please let us know about any allergies when making your reservation.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is there parking available?</h3>
+                    <p>Yes, we have street parking available on Bole Road, and the area is easily accessible by public transport.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you host private events?</h3>
+                    <p>Yes! We can accommodate private parties and events, including traditional Ethiopian coffee ceremonies. Please contact us at events@habeshakitchen.com for more information.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What is your cancellation policy?</h3>
+                    <p>We ask for at least 2 hours notice for cancellations. For large parties (6+ guests), we require 24 hours notice.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer takeout?</h3>
+                    <p>Yes! We offer takeout for most of our traditional Ethiopian dishes. Please call ahead to place your order.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍽️ Habesha Kitchen</h3>
+                    <p>Authentic Ethiopian cuisine made with love and tradition</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 Bole Road, Addis Ababa</p>
+                    <p>📞 +251 11 123 4567</p>
+                    <p>✉️ info@habeshakitchen.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Habesha Kitchen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

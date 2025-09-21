@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Habesha Kitchen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">🍽️ Habesha Kitchen</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active">Menu</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Our Menu</h1>
+            <p class="page-subtitle">Authentic Ethiopian flavors crafted with passion</p>
+        </div>
+    </section>
+
+    <!-- Menu Filter -->
+    <section class="menu-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All Items</button>
+                <button class="filter-btn" data-category="appetizers">Appetizers</button>
+                <button class="filter-btn" data-category="wat">Wat (Stews)</button>
+                <button class="filter-btn" data-category="tibs">Tibs</button>
+                <button class="filter-btn" data-category="desserts">Desserts</button>
+                <button class="filter-btn" data-category="beverages">Beverages</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-items">
+        <div class="container">
+            <!-- Appetizers -->
+            <div class="menu-category" data-category="appetizers">
+                <h2 class="category-title">🍽️ Appetizers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/sambusa.png" alt="Sambusa" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Sambusa</h3>
+                            <p>Triangular pastries filled with spiced meat or lentils</p>
+                            <span class="price">25 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/kolo.png" alt="Kolo" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Kolo</h3>
+                            <p>Roasted barley and chickpeas - traditional Ethiopian snack</p>
+                            <span class="price">35 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/chips.png" alt="Ayib" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Potato chips</h3>
+                            <p>Potato chips</p>
+                            <span class="price">45 ETB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wat (Stews) -->
+            <div class="menu-category" data-category="wat">
+                <h2 class="category-title">🍲 Wat (Stews)</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/doro_wat.png" alt="Doro Wat" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Doro Wat</h3>
+                            <p>Traditional chicken stew with berbere spice and hard-boiled eggs</p>
+                            <span class="price">450 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/key_wot.png" alt="Key Wat" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Key Wat</h3>
+                            <p>Spicy beef stew with berbere and Ethiopian spices</p>
+                            <span class="price">320 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/shiro_wot.png" alt="Asa Wat" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Shiro Wat</h3>
+                            <p>Shiro with chillies</p>
+                            <span class="price">200 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/misr_wot.png" alt="Misir Wat" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Misir Wat</h3>
+                            <p>Red lentil stew with berbere spice - vegetarian favorite</p>
+                            <span class="price">280 ETB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tibs -->
+            <div class="menu-category" data-category="tibs">
+                <h2 class="category-title">🥩 Tibs</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/beef_tibs.jpg" alt="Beef Tibs" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Beef Tibs</h3>
+                            <p>Tender beef cubes sautéed with onions, peppers, and spices</p>
+                            <span class="price">380 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/shekla_tibs.png" alt="Shekla Ti" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Shekla Tibs</h3>
+                            <p>Succulent lamb pieces with rosemary and Ethiopian spices</p>
+                            <span class="price">420 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/fish.jpg" alt="Fish Tibs" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Fish Tibs</h3>
+                            <p>Fresh fish fillets with tomatoes, onions, and herbs</p>
+                            <span class="price">350 ETB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category" data-category="desserts">
+                <h2 class="category-title">🍰 Desserts</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/baklava.png" alt="Baklava" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Baklava</h3>
+                            <p>Layered pastry with nuts and honey syrup</p>
+                            <span class="price">85 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/strawberry_cake.jpg" alt="Strawberry Cake" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Strawberry Cake</h3>
+                            <p>Cake with strawberry</p>
+                            <span class="price">65 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/donut.png" alt="Donuts" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Donuts</h3>
+                            <p>Chocolate Glazed Donuts</p>
+                            <span class="price">75 ETB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category" data-category="beverages">
+                <h2 class="category-title">☕ Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/coffee.png" alt="Ethiopian Coffee" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Ethiopian Coffee</h3>
+                            <p>Ethiopian Coffee</p>
+                            <span class="price">40 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/tej.png" alt="Tej" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Tej (Honey Wine)</h3>
+                            <p>Traditional Ethiopian honey wine - sweet and aromatic</p>
+                            <span class="price">150 ETB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/avocado.png" alt="Fresh Juice" class="menu-img">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Fresh Avocado Juice</h3>
+                            <p>Freshly blended avocado with lime and sugar</p>
+                            <span class="price">145 ETB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience Authentic Ethiopian Cuisine?</h2>
+                <p>Make a reservation today and let us treat you to an unforgettable dining experience</p>
+                <a href="contact.html" class="btn btn-primary">Make Reservation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🍽️ Habesha Kitchen</h3>
+                    <p>Authentic Ethiopian cuisine made with love and tradition</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 Bole Road, Addis Ababa</p>
+                    <p>📞 +251 11 123 4567</p>
+                    <p>✉️ info@habeshakitchen.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Habesha Kitchen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
